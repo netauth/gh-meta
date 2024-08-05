@@ -130,6 +130,17 @@ locals {
       ]
     }
 
+    netauth-python = {
+      description  = "NetAuth client library for Python"
+      homepage_url = "https://python.netauth.org"
+      teams        = ["core-dev", "python-dev"]
+      topics = [
+        "secure-access",
+        "authentication-service",
+        "python",
+      ]
+    }
+
     ###########
     # Plugins #
     ###########
