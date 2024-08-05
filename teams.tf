@@ -19,6 +19,12 @@ locals {
         "the-maldridge",
       ]
     }
+    python-dev = {
+      description = "Developers of the python library"
+      members = [
+        "classabbyamp",
+      ]
+    }
   }
 }
 
